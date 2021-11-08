@@ -11,7 +11,7 @@ Write-Host "loading the console...... please wait..."
 }
 Start-Sleep -Seconds 10
 $username = $ie.Document.IHTMLDocument3_getElementById('email')
-$username.value="pavankumar.nagamalla@gmail.com"
+$username.value="**************************************************************"
 $password = $ie.Document.IHTMLDocument3_getElementById('pass')
-$password.value="pavan@143"
+$password.value="******************"
 $ie.Document.IHTMLDocument3_getElementById('u_0_b').click()
