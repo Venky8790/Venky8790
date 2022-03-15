@@ -1,7 +1,7 @@
 ﻿$ie=New-Object -ComObject "internetexplorer.Application"
 $ie.Visible = $true
 
-Start-Sleep -Seconds 10
+Start-Sleep -Seconds 8
 $ie.Navigate("https://www.facebook.com/")
 
 while($ie.busy -eq $true)
